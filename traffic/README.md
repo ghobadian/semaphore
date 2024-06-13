@@ -2,7 +2,7 @@
 
 Imagine you have a crossroad where two traffic lines intersect perpendicularly. There are traffic lights controlling vehicle and pedestrian flows. Also, each corner of the intersection has traffic lights. These lights regulate the flow of vehicles and pedestrians at the intersection.
 
-Problem Conditions:
+## Problem Conditions
 
 1) There are four traffic lights, one for each traffic direction (north, south, east, west).
 
@@ -17,3 +17,6 @@ Problem Conditions:
 6) Traffic lights must coordinate their state changes to prevent conflicts and ensure the simultaneous activation of green lights does not lead to collisions.
 
 Your task is to propose a solution using semaphores and monitors to manage the traffic lights and pedestrian crossings at the intersection. Ensure that your solution provides a correct and safe sequence of events for both pedestrians and vehicles, preventing potential conflicts between traffic light states.
+
+## Key notes
+For the program to work without any errors, run the executable file (after compilation) in terminal. the key_logger.h doesn't work properly in IDE.
